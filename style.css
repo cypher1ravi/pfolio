@@ -55,8 +55,8 @@ body {
 
 .container {
     display: flex;
-    min-height: 90vh;
-    
+    min-height: 85vh;
+
     flex-direction: column;
 }
 
@@ -286,8 +286,8 @@ footer {
     align-items: center;
     padding: 20px;
     font-weight: bold;
-
     border-top: 1px solid aqua;
+    border-bottom: 1px solid aqua;
 }
 
 footer span {
@@ -348,15 +348,17 @@ footer span {
         font-size: 7px;
 
     }
-     footer {
+
+    footer {
         font-size: 8px;
+        padding: 10px;
     }
 
     .social-media img {
         width: 20px;
         height: 20px;
+        padding-top: 10px;
     }
-
 
     /* .sidebar {
         transform: translate(-400px, 0px);
