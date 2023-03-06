@@ -56,7 +56,7 @@ body {
 .container {
     display: flex;
     min-height: 90vh;
-    max-height: 120vh;
+    
     flex-direction: column;
 }
 
